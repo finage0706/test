@@ -57,7 +57,7 @@
             <classpath refid="test.classpath"/>
         </java>
     </target>
-    <target name="junitreport">
+    <target depends="showTest" name="junitreport">
         <junitreport todir="${junit.output.dir}">
             <fileset dir="${junit.output.dir}">
                 <include name="TEST-*.xml"/>
