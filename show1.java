@@ -12,7 +12,7 @@ public class show1 {
 		result2=oper.subtraction(n1, n2);
 		result3=oper1.multiplication(n1,n2);
 		result4=oper1.division(n1, n2);
-		System.out.println(result1+1);
+		System.out.println(result1);
 		System.out.println(result2);
 		System.out.println(result3);
 		System.out.println(result4);
